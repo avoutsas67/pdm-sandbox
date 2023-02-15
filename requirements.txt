@@ -1,0 +1,12 @@
+tensorflow
+keras
+transformers
+nltk
+gensim
+scikit-learn
+scipy
+torch
+matplotlib
+tqdm
+pandas
+numpy
