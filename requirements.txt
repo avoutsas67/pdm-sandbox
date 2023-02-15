@@ -10,3 +10,5 @@ matplotlib
 tqdm
 pandas
 numpy
+pytorch-pretrained-bert
+pytorch-nlp
