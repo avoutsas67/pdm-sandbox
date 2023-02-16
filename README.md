@@ -21,6 +21,12 @@ python3 -m venv .venv-my-test
 
 .venv-my-test\Scripts\activate
 
+python -m pip install --upgrade pip
+
+pip install numpy pandas
+
+pip freeze
+
 deactivate
 ```
 
@@ -33,3 +39,23 @@ PEP 621 project metadata.
 
 [PDM](https://pdm.fming.dev/latest/)
 [PEP 582 – Python local packages directory](https://peps.python.org/pep-0582/)
+
+``` cmd
+python3 -m venv .venv-my-test-pdm
+
+.venv-my-test-pdm\Scripts\activate
+
+python -m pip install --upgrade pip
+
+pdm config
+
+pdm init
+
+pdm cache info
+
+pdm add numpy pandas
+
+pdm cache info
+
+deactivate
+```
