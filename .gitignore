@@ -1,4 +1,2 @@
 **/.venv*
 **/.vscode
-.pdm.toml
-pdm.lock
